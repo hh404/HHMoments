@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomePageViewController.h
 //  HHMoments
 //
 //  Created by huangjianwu on 2017/8/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HomePageViewController : UIViewController
 
 
 @end

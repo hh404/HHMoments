@@ -7,6 +7,8 @@ target 'HHMoments' do
 
 pod 'AFNetworking', '~> 3.1.0'
 pod 'Masonry', '~> 1.0.2'
+pod 'MJExtension'
+pod 'Masonry', '~> 1.0.2'
   # Pods for HHMoments
 
   target 'HHMomentsTests' do

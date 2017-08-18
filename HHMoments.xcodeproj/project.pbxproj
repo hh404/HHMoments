@@ -10,14 +10,20 @@
 		1842AF216B6921E203382EBC /* libPods-HHMomentsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 671561129FEBB85F25D762D0 /* libPods-HHMomentsUITests.a */; };
 		2965B5EABF2E706A90856081 /* libPods-HHMoments.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50772BC78A3C3AD9DDB32FA3 /* libPods-HHMoments.a */; };
 		4BEDA29740C9ECECFBD8F561 /* libPods-HHMomentsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF381BDBAA68D6E46D3A3B8 /* libPods-HHMomentsTests.a */; };
+		EC348FAD1F47112B003844E0 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC348FAB1F47112B003844E0 /* HomePageViewController.m */; };
+		EC348FB21F4715A3003844E0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC348FB41F4715A3003844E0 /* Localizable.strings */; };
+		EC348FB91F471C16003844E0 /* MomentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC348FB81F471C16003844E0 /* MomentsViewController.m */; };
+		EC348FBE1F471FBC003844E0 /* MomentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC348FBD1F471FBC003844E0 /* MomentCell.m */; };
 		EC641CB51F4483B2009B5AA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CB41F4483B2009B5AA3 /* main.m */; };
 		EC641CB81F4483B2009B5AA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CB71F4483B2009B5AA3 /* AppDelegate.m */; };
-		EC641CBB1F4483B2009B5AA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CBA1F4483B2009B5AA3 /* ViewController.m */; };
 		EC641CBE1F4483B2009B5AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC641CBC1F4483B2009B5AA3 /* Main.storyboard */; };
 		EC641CC01F4483B2009B5AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC641CBF1F4483B2009B5AA3 /* Assets.xcassets */; };
 		EC641CC31F4483B2009B5AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC641CC11F4483B2009B5AA3 /* LaunchScreen.storyboard */; };
 		EC641CCE1F4483B2009B5AA3 /* HHMomentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CCD1F4483B2009B5AA3 /* HHMomentsTests.m */; };
 		EC641CD91F4483B2009B5AA3 /* HHMomentsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CD81F4483B2009B5AA3 /* HHMomentsUITests.m */; };
+		EC641CE81F448B62009B5AA3 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CE71F448B62009B5AA3 /* UserInfo.m */; };
+		EC641CF41F448BE1009B5AA3 /* NSObject+AutoDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CEC1F448BE1009B5AA3 /* NSObject+AutoDescription.m */; };
+		EC641CF51F448BE1009B5AA3 /* NSObject+CleanDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CEE1F448BE1009B5AA3 /* NSObject+CleanDescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,12 +53,20 @@
 		ABE74C770A943CCCBE9184E0 /* Pods-HHMomentsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHMomentsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHMomentsUITests/Pods-HHMomentsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C9CB16B71ADC5845D13F3913 /* Pods-HHMomentsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHMomentsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHMomentsTests/Pods-HHMomentsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA2F4AFA7A27637FB4F2D007 /* Pods-HHMoments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHMoments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHMoments/Pods-HHMoments.debug.xcconfig"; sourceTree = "<group>"; };
+		EC348FAB1F47112B003844E0 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		EC348FAC1F47112B003844E0 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		EC348FB01F47159D003844E0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		EC348FB11F47159D003844E0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		EC348FB51F4715A6003844E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EC348FB61F4715AB003844E0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		EC348FB71F471C16003844E0 /* MomentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsViewController.h; sourceTree = "<group>"; };
+		EC348FB81F471C16003844E0 /* MomentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsViewController.m; sourceTree = "<group>"; };
+		EC348FBC1F471FBC003844E0 /* MomentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentCell.h; sourceTree = "<group>"; };
+		EC348FBD1F471FBC003844E0 /* MomentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentCell.m; sourceTree = "<group>"; };
 		EC641CB01F4483B2009B5AA3 /* HHMoments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHMoments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC641CB41F4483B2009B5AA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC641CB61F4483B2009B5AA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC641CB71F4483B2009B5AA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC641CB91F4483B2009B5AA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC641CBA1F4483B2009B5AA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC641CBD1F4483B2009B5AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC641CBF1F4483B2009B5AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC641CC21F4483B2009B5AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +77,13 @@
 		EC641CD41F4483B2009B5AA3 /* HHMomentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHMomentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC641CD81F4483B2009B5AA3 /* HHMomentsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMomentsUITests.m; sourceTree = "<group>"; };
 		EC641CDA1F4483B2009B5AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC641CE61F448B62009B5AA3 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		EC641CE71F448B62009B5AA3 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		EC641CEB1F448BE1009B5AA3 /* NSObject+AutoDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AutoDescription.h"; sourceTree = "<group>"; };
+		EC641CEC1F448BE1009B5AA3 /* NSObject+AutoDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AutoDescription.m"; sourceTree = "<group>"; };
+		EC641CED1F448BE1009B5AA3 /* NSObject+CleanDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CleanDescription.h"; sourceTree = "<group>"; };
+		EC641CEE1F448BE1009B5AA3 /* NSObject+CleanDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CleanDescription.m"; sourceTree = "<group>"; };
+		EC641CF71F448D9A009B5AA3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +137,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EC348FA91F471008003844E0 /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				EC348FB71F471C16003844E0 /* MomentsViewController.h */,
+				EC348FB81F471C16003844E0 /* MomentsViewController.m */,
+			);
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		EC348FAA1F4710AD003844E0 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				EC348FAB1F47112B003844E0 /* HomePageViewController.m */,
+				EC348FAC1F47112B003844E0 /* HomePageViewController.h */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		EC348FBA1F471F47003844E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC348FBB1F471FA4003844E0 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC348FBB1F471FA4003844E0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EC348FBC1F471FBC003844E0 /* MomentCell.h */,
+				EC348FBD1F471FBC003844E0 /* MomentCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		EC641CA71F4483B2009B5AA3 = {
 			isa = PBXGroup;
 			children = (
@@ -141,15 +197,19 @@
 		EC641CB21F4483B2009B5AA3 /* HHMoments */ = {
 			isa = PBXGroup;
 			children = (
+				EC348FBA1F471F47003844E0 /* Views */,
+				EC641CE91F448BE1009B5AA3 /* ThirdPart */,
+				EC641CEF1F448BE1009B5AA3 /* Models */,
+				EC641CF21F448BE1009B5AA3 /* ViewControllers */,
+				EC641CF31F448BE1009B5AA3 /* Networking */,
 				EC641CB61F4483B2009B5AA3 /* AppDelegate.h */,
 				EC641CB71F4483B2009B5AA3 /* AppDelegate.m */,
-				EC641CB91F4483B2009B5AA3 /* ViewController.h */,
-				EC641CBA1F4483B2009B5AA3 /* ViewController.m */,
 				EC641CBC1F4483B2009B5AA3 /* Main.storyboard */,
 				EC641CBF1F4483B2009B5AA3 /* Assets.xcassets */,
 				EC641CC11F4483B2009B5AA3 /* LaunchScreen.storyboard */,
 				EC641CC41F4483B2009B5AA3 /* Info.plist */,
 				EC641CB31F4483B2009B5AA3 /* Supporting Files */,
+				EC348FB41F4715A3003844E0 /* Localizable.strings */,
 			);
 			path = HHMoments;
 			sourceTree = "<group>";
@@ -158,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				EC641CB41F4483B2009B5AA3 /* main.m */,
+				EC641CF71F448D9A009B5AA3 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,6 +239,51 @@
 				EC641CDA1F4483B2009B5AA3 /* Info.plist */,
 			);
 			path = HHMomentsUITests;
+			sourceTree = "<group>";
+		};
+		EC641CE91F448BE1009B5AA3 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				EC641CEA1F448BE1009B5AA3 /* NSObject+AutoDescription */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		EC641CEA1F448BE1009B5AA3 /* NSObject+AutoDescription */ = {
+			isa = PBXGroup;
+			children = (
+				EC641CEB1F448BE1009B5AA3 /* NSObject+AutoDescription.h */,
+				EC641CEC1F448BE1009B5AA3 /* NSObject+AutoDescription.m */,
+				EC641CED1F448BE1009B5AA3 /* NSObject+CleanDescription.h */,
+				EC641CEE1F448BE1009B5AA3 /* NSObject+CleanDescription.m */,
+			);
+			path = "NSObject+AutoDescription";
+			sourceTree = "<group>";
+		};
+		EC641CEF1F448BE1009B5AA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC641CE61F448B62009B5AA3 /* UserInfo.h */,
+				EC641CE71F448B62009B5AA3 /* UserInfo.m */,
+			);
+			name = Models;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC641CF21F448BE1009B5AA3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC348FAA1F4710AD003844E0 /* HomePage */,
+				EC348FA91F471008003844E0 /* Moments */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC641CF31F448BE1009B5AA3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +386,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = EC641CA71F4483B2009B5AA3;
 			productRefGroup = EC641CB11F4483B2009B5AA3 /* Products */;
@@ -299,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC641CC31F4483B2009B5AA3 /* LaunchScreen.storyboard in Resources */,
+				EC348FB21F4715A3003844E0 /* Localizable.strings in Resources */,
 				EC641CC01F4483B2009B5AA3 /* Assets.xcassets in Resources */,
 				EC641CBE1F4483B2009B5AA3 /* Main.storyboard in Resources */,
 			);
@@ -472,9 +580,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC641CBB1F4483B2009B5AA3 /* ViewController.m in Sources */,
+				EC348FAD1F47112B003844E0 /* HomePageViewController.m in Sources */,
+				EC641CE81F448B62009B5AA3 /* UserInfo.m in Sources */,
+				EC641CF51F448BE1009B5AA3 /* NSObject+CleanDescription.m in Sources */,
+				EC641CF41F448BE1009B5AA3 /* NSObject+AutoDescription.m in Sources */,
 				EC641CB81F4483B2009B5AA3 /* AppDelegate.m in Sources */,
+				EC348FB91F471C16003844E0 /* MomentsViewController.m in Sources */,
 				EC641CB51F4483B2009B5AA3 /* main.m in Sources */,
+				EC348FBE1F471FBC003844E0 /* MomentCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,10 +623,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		EC348FB41F4715A3003844E0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC348FB51F4715A6003844E0 /* en */,
+				EC348FB61F4715AB003844E0 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		EC641CBC1F4483B2009B5AA3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EC641CBD1F4483B2009B5AA3 /* Base */,
+				EC348FB01F47159D003844E0 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -522,6 +645,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EC641CC21F4483B2009B5AA3 /* Base */,
+				EC348FB11F47159D003844E0 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -533,6 +657,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -582,6 +707,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -627,6 +753,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K3KX659AR4;
+				GCC_PREFIX_HEADER = HHMoments/PrefixHeader.pch;
 				INFOPLIST_FILE = HHMoments/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HHMoments;
@@ -640,6 +767,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K3KX659AR4;
+				GCC_PREFIX_HEADER = HHMoments/PrefixHeader.pch;
 				INFOPLIST_FILE = HHMoments/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hw.HHMoments;
@@ -720,6 +848,7 @@
 				EC641CDF1F4483B2009B5AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC641CE01F4483B2009B5AA3 /* Build configuration list for PBXNativeTarget "HHMomentsTests" */ = {
 			isa = XCConfigurationList;
@@ -728,6 +857,7 @@
 				EC641CE21F4483B2009B5AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC641CE31F4483B2009B5AA3 /* Build configuration list for PBXNativeTarget "HHMomentsUITests" */ = {
 			isa = XCConfigurationList;
@@ -736,6 +866,7 @@
 				EC641CE51F4483B2009B5AA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
