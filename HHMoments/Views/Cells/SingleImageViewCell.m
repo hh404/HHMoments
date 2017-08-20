@@ -26,6 +26,8 @@
     {
         _imageView = [[UIImageView alloc] initWithFrame:CGRectZero];
         [self.contentView addSubview:_imageView];
+        _imageView.contentMode = UIViewContentModeScaleAspectFill;
+        _imageView.layer.masksToBounds = YES;
         [_imageView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.contentView.mas_top); //with is an optional semantic filler
             make.left.equalTo(self.contentView.mas_left);

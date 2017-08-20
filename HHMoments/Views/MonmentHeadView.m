@@ -67,8 +67,18 @@
 -(void)setUserInfo:(CurrentUserInfo *)userInfo
 {
     _userInfo = userInfo;
-    [_backgroundImageView sd_setImageWithURL:[NSURL URLWithString:userInfo.profileImage]];
+    //[_backgroundImageView sd_setImageWithURL:[NSURL URLWithString:userInfo.profileImage]];
     [_avatarImageView sd_setImageWithURL:[NSURL URLWithString:userInfo.avatar]];
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [[ImageManager shareManager] imageWithURL:userInfo.profileImage success:^(UIImage *image) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.backgroundImageView.image = image;
+            });
+        } failure:^(NSError *error) {
+            
+        }];
+    });
     _nameLabel.text = userInfo.nick;
 }
 

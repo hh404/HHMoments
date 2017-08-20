@@ -85,7 +85,18 @@ static NetworkManager *gNetworkManager = nil;
          success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
              
              NSLog(@"这里打印请求成功要做的事");
-             NSArray *ar = [OneMoment mj_objectArrayWithKeyValuesArray:responseObject];
+             NSMutableArray *ar = [[OneMoment mj_objectArrayWithKeyValuesArray:responseObject] mutableCopy];
+             
+             //排错
+             NSMutableIndexSet *set = [NSMutableIndexSet indexSet];
+             for (int i=0; i<[ar count]; i++) {
+                 OneMoment *moment = [ar objectAtIndex:i];
+                 if([moment.error length] > 0)
+                 {
+                     [set addIndex:i];
+                 }
+             }
+             [ar removeObjectsAtIndexes:set];
              Monents *moments = [[Monents alloc] init];
              moments.comments = ar;
              NSLog(@"%@",ar);

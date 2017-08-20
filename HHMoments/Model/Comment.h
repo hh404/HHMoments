@@ -1,5 +1,5 @@
 //
-//  Content.h
+//  Comment.h
 //  HHMoments
 //
 //  Created by huangjianwu on 2017/8/19.
@@ -8,7 +8,7 @@
 
 @import Foundation;
 
-@interface Content : NSObject
+@interface Comment : NSObject
 
 @property(nonatomic,copy)NSString *content;
 

@@ -6,9 +6,9 @@
 //  Copyright (c) 2017年 huangjianwu. All rights reserved.
 //
 
-#import "Content.h"
+#import "Comment.h"
 
-@interface Content ()
+@interface Comment ()
 
 @end
 
@@ -16,7 +16,7 @@
 // NSString * const ContentDidSomethingNotification = @"ContentDidSomething";
 // static NSString * const kSomeLocalConstant = @"SomeValue";
 
-@implementation Content
+@implementation Comment
 
 #pragma mark -
 #pragma mark Static methods

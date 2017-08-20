@@ -10,6 +10,8 @@ pod 'Masonry', '~> 1.0.2'
 pod 'MJExtension'
 pod 'Masonry', '~> 1.0.2'
  pod 'SDWebImage', '~> 4.1.0'
+    pod 'MJRefresh', '~> 3.1.12'
+    pod 'MD5Digest'
   # Pods for HHMoments
 
   target 'HHMomentsTests' do

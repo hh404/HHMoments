@@ -6,3 +6,8 @@
   Copyright © 2017年 huangjianwu. All rights reserved.
 */
 "moments" = "朋友圈";
+"minutesAgo" = "分钟前";
+"fullText" = "全文";
+"expand" = "展开";
+"praise" = "赞";
+"comment" = "评论";

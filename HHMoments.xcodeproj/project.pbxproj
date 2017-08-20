@@ -28,7 +28,7 @@
 		ECE4D1DA1F47D1BC004F2D54 /* MonmentHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1D91F47D1BC004F2D54 /* MonmentHeadView.m */; };
 		ECE4D1DD1F4845D4004F2D54 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1DC1F4845D4004F2D54 /* NetworkManager.m */; };
 		ECE4D1E01F4848B4004F2D54 /* CurrentUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1DF1F4848B4004F2D54 /* CurrentUserInfo.m */; };
-		ECE4D1E31F4859B1004F2D54 /* Content.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1E21F4859B1004F2D54 /* Content.m */; };
+		ECE4D1E31F4859B1004F2D54 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1E21F4859B1004F2D54 /* Comment.m */; };
 		ECE4D1E61F485AD3004F2D54 /* OneMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1E51F485AD3004F2D54 /* OneMoment.m */; };
 		ECE4D1E91F485CF1004F2D54 /* Monents.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1E81F485CF1004F2D54 /* Monents.m */; };
 		ECE4D1EC1F486AD9004F2D54 /* ImageGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1EB1F486AD9004F2D54 /* ImageGridView.m */; };
@@ -36,6 +36,23 @@
 		ECE4D1F81F487916004F2D54 /* HHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1F71F487916004F2D54 /* HHTools.m */; };
 		ECE4D1FE1F487C59004F2D54 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1FB1F487C59004F2D54 /* UITableView+HYBCacheHeight.m */; };
 		ECE4D1FF1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1FD1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
+		ECE4D2021F492553004F2D54 /* MomentCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D2011F492553004F2D54 /* MomentCommentView.m */; };
+		ECE4D21C1F492560004F2D54 /* NSAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D2061F492560004F2D54 /* NSAttributedString+MLLabel.m */; };
+		ECE4D21D1F492560004F2D54 /* NSMutableAttributedString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D2081F492560004F2D54 /* NSMutableAttributedString+MLLabel.m */; };
+		ECE4D21E1F492560004F2D54 /* NSString+MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D20A1F492560004F2D54 /* NSString+MLLabel.m */; };
+		ECE4D21F1F492560004F2D54 /* MLExpressionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D20D1F492560004F2D54 /* MLExpressionManager.m */; };
+		ECE4D2201F492560004F2D54 /* MLTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D20F1F492560004F2D54 /* MLTextAttachment.m */; };
+		ECE4D2211F492560004F2D54 /* NSAttributedString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D2111F492560004F2D54 /* NSAttributedString+MLExpression.m */; };
+		ECE4D2221F492560004F2D54 /* NSString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D2131F492560004F2D54 /* NSString+MLExpression.m */; };
+		ECE4D2231F492560004F2D54 /* MLLabelLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D2171F492560004F2D54 /* MLLabelLayoutManager.m */; };
+		ECE4D2241F492560004F2D54 /* MLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D2191F492560004F2D54 /* MLLabel.m */; };
+		ECE4D2251F492560004F2D54 /* MLLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D21B1F492560004F2D54 /* MLLinkLabel.m */; };
+		ECE4D2281F4925C6004F2D54 /* MomentCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D2271F4925C6004F2D54 /* MomentCommentCell.m */; };
+		ECE4D22B1F4934D0004F2D54 /* CommentOperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D22A1F4934D0004F2D54 /* CommentOperationView.m */; };
+		ECE4D22E1F4947BF004F2D54 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D22D1F4947BF004F2D54 /* UIColor+Random.m */; };
+		ECE4D2321F49897A004F2D54 /* MomentsDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D2311F49897A004F2D54 /* MomentsDataManager.m */; };
+		ECE4D2351F49B2DC004F2D54 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D2341F49B2DC004F2D54 /* ImageManager.m */; };
+		ECE4D2381F49BC59004F2D54 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D2371F49BC59004F2D54 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,8 +121,8 @@
 		ECE4D1DC1F4845D4004F2D54 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		ECE4D1DE1F4848B4004F2D54 /* CurrentUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentUserInfo.h; sourceTree = "<group>"; };
 		ECE4D1DF1F4848B4004F2D54 /* CurrentUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentUserInfo.m; sourceTree = "<group>"; };
-		ECE4D1E11F4859B1004F2D54 /* Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content.h; sourceTree = "<group>"; };
-		ECE4D1E21F4859B1004F2D54 /* Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Content.m; sourceTree = "<group>"; };
+		ECE4D1E11F4859B1004F2D54 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		ECE4D1E21F4859B1004F2D54 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
 		ECE4D1E41F485AD3004F2D54 /* OneMoment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneMoment.h; sourceTree = "<group>"; };
 		ECE4D1E51F485AD3004F2D54 /* OneMoment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneMoment.m; sourceTree = "<group>"; };
 		ECE4D1E71F485CF1004F2D54 /* Monents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monents.h; sourceTree = "<group>"; };
@@ -120,6 +137,41 @@
 		ECE4D1FB1F487C59004F2D54 /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
 		ECE4D1FC1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
 		ECE4D1FD1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HYBMasonryAutoCellHeight.m"; sourceTree = "<group>"; };
+		ECE4D2001F492553004F2D54 /* MomentCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MomentCommentView.h; path = Cells/MomentCommentView.h; sourceTree = "<group>"; };
+		ECE4D2011F492553004F2D54 /* MomentCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MomentCommentView.m; path = Cells/MomentCommentView.m; sourceTree = "<group>"; };
+		ECE4D2051F492560004F2D54 /* NSAttributedString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MLLabel.h"; sourceTree = "<group>"; };
+		ECE4D2061F492560004F2D54 /* NSAttributedString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MLLabel.m"; sourceTree = "<group>"; };
+		ECE4D2071F492560004F2D54 /* NSMutableAttributedString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+MLLabel.h"; sourceTree = "<group>"; };
+		ECE4D2081F492560004F2D54 /* NSMutableAttributedString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+MLLabel.m"; sourceTree = "<group>"; };
+		ECE4D2091F492560004F2D54 /* NSString+MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MLLabel.h"; sourceTree = "<group>"; };
+		ECE4D20A1F492560004F2D54 /* NSString+MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLLabel.m"; sourceTree = "<group>"; };
+		ECE4D20C1F492560004F2D54 /* MLExpressionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLExpressionManager.h; sourceTree = "<group>"; };
+		ECE4D20D1F492560004F2D54 /* MLExpressionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLExpressionManager.m; sourceTree = "<group>"; };
+		ECE4D20E1F492560004F2D54 /* MLTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTextAttachment.h; sourceTree = "<group>"; };
+		ECE4D20F1F492560004F2D54 /* MLTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTextAttachment.m; sourceTree = "<group>"; };
+		ECE4D2101F492560004F2D54 /* NSAttributedString+MLExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MLExpression.h"; sourceTree = "<group>"; };
+		ECE4D2111F492560004F2D54 /* NSAttributedString+MLExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MLExpression.m"; sourceTree = "<group>"; };
+		ECE4D2121F492560004F2D54 /* NSString+MLExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MLExpression.h"; sourceTree = "<group>"; };
+		ECE4D2131F492560004F2D54 /* NSString+MLExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLExpression.m"; sourceTree = "<group>"; };
+		ECE4D2151F492560004F2D54 /* MLLabel+Override.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MLLabel+Override.h"; sourceTree = "<group>"; };
+		ECE4D2161F492560004F2D54 /* MLLabelLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLabelLayoutManager.h; sourceTree = "<group>"; };
+		ECE4D2171F492560004F2D54 /* MLLabelLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLabelLayoutManager.m; sourceTree = "<group>"; };
+		ECE4D2181F492560004F2D54 /* MLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLabel.h; sourceTree = "<group>"; };
+		ECE4D2191F492560004F2D54 /* MLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLabel.m; sourceTree = "<group>"; };
+		ECE4D21A1F492560004F2D54 /* MLLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLinkLabel.h; sourceTree = "<group>"; };
+		ECE4D21B1F492560004F2D54 /* MLLinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLinkLabel.m; sourceTree = "<group>"; };
+		ECE4D2261F4925C6004F2D54 /* MomentCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentCommentCell.h; sourceTree = "<group>"; };
+		ECE4D2271F4925C6004F2D54 /* MomentCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentCommentCell.m; sourceTree = "<group>"; };
+		ECE4D2291F4934D0004F2D54 /* CommentOperationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentOperationView.h; sourceTree = "<group>"; };
+		ECE4D22A1F4934D0004F2D54 /* CommentOperationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentOperationView.m; sourceTree = "<group>"; };
+		ECE4D22C1F4947BF004F2D54 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		ECE4D22D1F4947BF004F2D54 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		ECE4D2301F49897A004F2D54 /* MomentsDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsDataManager.h; sourceTree = "<group>"; };
+		ECE4D2311F49897A004F2D54 /* MomentsDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsDataManager.m; sourceTree = "<group>"; };
+		ECE4D2331F49B2DC004F2D54 /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		ECE4D2341F49B2DC004F2D54 /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		ECE4D2361F49BC59004F2D54 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		ECE4D2371F49BC59004F2D54 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,10 +247,14 @@
 			isa = PBXGroup;
 			children = (
 				EC348FBB1F471FA4003844E0 /* Cells */,
+				ECE4D2001F492553004F2D54 /* MomentCommentView.h */,
+				ECE4D2011F492553004F2D54 /* MomentCommentView.m */,
 				ECE4D1D81F47D1BC004F2D54 /* MonmentHeadView.h */,
 				ECE4D1D91F47D1BC004F2D54 /* MonmentHeadView.m */,
 				ECE4D1EA1F486AD9004F2D54 /* ImageGridView.h */,
 				ECE4D1EB1F486AD9004F2D54 /* ImageGridView.m */,
+				ECE4D2291F4934D0004F2D54 /* CommentOperationView.h */,
+				ECE4D22A1F4934D0004F2D54 /* CommentOperationView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +266,8 @@
 				EC348FBD1F471FBC003844E0 /* MomentCell.m */,
 				EC348FBF1F472446003844E0 /* SingleImageViewCell.h */,
 				EC348FC01F472446003844E0 /* SingleImageViewCell.m */,
+				ECE4D2261F4925C6004F2D54 /* MomentCommentCell.h */,
+				ECE4D2271F4925C6004F2D54 /* MomentCommentCell.m */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -239,6 +297,7 @@
 		EC641CB21F4483B2009B5AA3 /* HHMoments */ = {
 			isa = PBXGroup;
 			children = (
+				ECE4D22F1F498953004F2D54 /* Manager */,
 				ECE4D1F11F4878F6004F2D54 /* Common */,
 				EC348FBA1F471F47003844E0 /* Views */,
 				EC641CE91F448BE1009B5AA3 /* ThirdPart */,
@@ -287,6 +346,7 @@
 		EC641CE91F448BE1009B5AA3 /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
+				ECE4D2031F492560004F2D54 /* MyLinkLabel */,
 				ECE4D1F91F487C59004F2D54 /* HYBMasonryAutoCellHeight */,
 				EC641CEA1F448BE1009B5AA3 /* NSObject+AutoDescription */,
 			);
@@ -311,8 +371,8 @@
 				EC641CE71F448B62009B5AA3 /* UserInfo.m */,
 				ECE4D1DE1F4848B4004F2D54 /* CurrentUserInfo.h */,
 				ECE4D1DF1F4848B4004F2D54 /* CurrentUserInfo.m */,
-				ECE4D1E11F4859B1004F2D54 /* Content.h */,
-				ECE4D1E21F4859B1004F2D54 /* Content.m */,
+				ECE4D1E11F4859B1004F2D54 /* Comment.h */,
+				ECE4D1E21F4859B1004F2D54 /* Comment.m */,
 				ECE4D1E41F485AD3004F2D54 /* OneMoment.h */,
 				ECE4D1E51F485AD3004F2D54 /* OneMoment.m */,
 				ECE4D1E71F485CF1004F2D54 /* Monents.h */,
@@ -353,6 +413,10 @@
 		ECE4D1F21F4878F6004F2D54 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				ECE4D2361F49BC59004F2D54 /* UIColor+Hex.h */,
+				ECE4D2371F49BC59004F2D54 /* UIColor+Hex.m */,
+				ECE4D22C1F4947BF004F2D54 /* UIColor+Random.h */,
+				ECE4D22D1F4947BF004F2D54 /* UIColor+Random.m */,
 				ECE4D1F31F4878F6004F2D54 /* NSString+Height.h */,
 				ECE4D1F41F4878F6004F2D54 /* NSString+Height.m */,
 			);
@@ -368,6 +432,69 @@
 				ECE4D1FD1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.m */,
 			);
 			path = HYBMasonryAutoCellHeight;
+			sourceTree = "<group>";
+		};
+		ECE4D2031F492560004F2D54 /* MyLinkLabel */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4D2041F492560004F2D54 /* Category */,
+				ECE4D20B1F492560004F2D54 /* Expression */,
+				ECE4D2141F492560004F2D54 /* Helper */,
+				ECE4D2181F492560004F2D54 /* MLLabel.h */,
+				ECE4D2191F492560004F2D54 /* MLLabel.m */,
+				ECE4D21A1F492560004F2D54 /* MLLinkLabel.h */,
+				ECE4D21B1F492560004F2D54 /* MLLinkLabel.m */,
+			);
+			path = MyLinkLabel;
+			sourceTree = "<group>";
+		};
+		ECE4D2041F492560004F2D54 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4D2051F492560004F2D54 /* NSAttributedString+MLLabel.h */,
+				ECE4D2061F492560004F2D54 /* NSAttributedString+MLLabel.m */,
+				ECE4D2071F492560004F2D54 /* NSMutableAttributedString+MLLabel.h */,
+				ECE4D2081F492560004F2D54 /* NSMutableAttributedString+MLLabel.m */,
+				ECE4D2091F492560004F2D54 /* NSString+MLLabel.h */,
+				ECE4D20A1F492560004F2D54 /* NSString+MLLabel.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		ECE4D20B1F492560004F2D54 /* Expression */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4D20C1F492560004F2D54 /* MLExpressionManager.h */,
+				ECE4D20D1F492560004F2D54 /* MLExpressionManager.m */,
+				ECE4D20E1F492560004F2D54 /* MLTextAttachment.h */,
+				ECE4D20F1F492560004F2D54 /* MLTextAttachment.m */,
+				ECE4D2101F492560004F2D54 /* NSAttributedString+MLExpression.h */,
+				ECE4D2111F492560004F2D54 /* NSAttributedString+MLExpression.m */,
+				ECE4D2121F492560004F2D54 /* NSString+MLExpression.h */,
+				ECE4D2131F492560004F2D54 /* NSString+MLExpression.m */,
+			);
+			path = Expression;
+			sourceTree = "<group>";
+		};
+		ECE4D2141F492560004F2D54 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4D2151F492560004F2D54 /* MLLabel+Override.h */,
+				ECE4D2161F492560004F2D54 /* MLLabelLayoutManager.h */,
+				ECE4D2171F492560004F2D54 /* MLLabelLayoutManager.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		ECE4D22F1F498953004F2D54 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4D2301F49897A004F2D54 /* MomentsDataManager.h */,
+				ECE4D2311F49897A004F2D54 /* MomentsDataManager.m */,
+				ECE4D2331F49B2DC004F2D54 /* ImageManager.h */,
+				ECE4D2341F49B2DC004F2D54 /* ImageManager.m */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -648,9 +775,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HHMoments/Pods-HHMoments-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -665,22 +795,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE4D1E91F485CF1004F2D54 /* Monents.m in Sources */,
+				ECE4D2241F492560004F2D54 /* MLLabel.m in Sources */,
+				ECE4D2381F49BC59004F2D54 /* UIColor+Hex.m in Sources */,
+				ECE4D22E1F4947BF004F2D54 /* UIColor+Random.m in Sources */,
+				ECE4D2351F49B2DC004F2D54 /* ImageManager.m in Sources */,
+				ECE4D2021F492553004F2D54 /* MomentCommentView.m in Sources */,
 				ECE4D1FE1F487C59004F2D54 /* UITableView+HYBCacheHeight.m in Sources */,
+				ECE4D22B1F4934D0004F2D54 /* CommentOperationView.m in Sources */,
 				EC348FAD1F47112B003844E0 /* HomePageViewController.m in Sources */,
 				EC641CE81F448B62009B5AA3 /* UserInfo.m in Sources */,
+				ECE4D2211F492560004F2D54 /* NSAttributedString+MLExpression.m in Sources */,
+				ECE4D21D1F492560004F2D54 /* NSMutableAttributedString+MLLabel.m in Sources */,
+				ECE4D21C1F492560004F2D54 /* NSAttributedString+MLLabel.m in Sources */,
 				EC641CF51F448BE1009B5AA3 /* NSObject+CleanDescription.m in Sources */,
 				ECE4D1DD1F4845D4004F2D54 /* NetworkManager.m in Sources */,
 				ECE4D1F51F4878F6004F2D54 /* NSString+Height.m in Sources */,
 				EC641CF41F448BE1009B5AA3 /* NSObject+AutoDescription.m in Sources */,
 				EC641CB81F4483B2009B5AA3 /* AppDelegate.m in Sources */,
+				ECE4D21F1F492560004F2D54 /* MLExpressionManager.m in Sources */,
 				ECE4D1DA1F47D1BC004F2D54 /* MonmentHeadView.m in Sources */,
 				EC348FB91F471C16003844E0 /* MomentsViewController.m in Sources */,
+				ECE4D2281F4925C6004F2D54 /* MomentCommentCell.m in Sources */,
 				EC348FC11F472446003844E0 /* SingleImageViewCell.m in Sources */,
 				EC641CB51F4483B2009B5AA3 /* main.m in Sources */,
+				ECE4D2221F492560004F2D54 /* NSString+MLExpression.m in Sources */,
 				ECE4D1E61F485AD3004F2D54 /* OneMoment.m in Sources */,
+				ECE4D21E1F492560004F2D54 /* NSString+MLLabel.m in Sources */,
 				ECE4D1E01F4848B4004F2D54 /* CurrentUserInfo.m in Sources */,
+				ECE4D2201F492560004F2D54 /* MLTextAttachment.m in Sources */,
 				ECE4D1FF1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
-				ECE4D1E31F4859B1004F2D54 /* Content.m in Sources */,
+				ECE4D2251F492560004F2D54 /* MLLinkLabel.m in Sources */,
+				ECE4D2321F49897A004F2D54 /* MomentsDataManager.m in Sources */,
+				ECE4D2231F492560004F2D54 /* MLLabelLayoutManager.m in Sources */,
+				ECE4D1E31F4859B1004F2D54 /* Comment.m in Sources */,
 				ECE4D1F81F487916004F2D54 /* HHTools.m in Sources */,
 				ECE4D1EC1F486AD9004F2D54 /* ImageGridView.m in Sources */,
 				EC348FBE1F471FBC003844E0 /* MomentCell.m in Sources */,

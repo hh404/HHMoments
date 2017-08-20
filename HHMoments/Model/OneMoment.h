@@ -16,8 +16,10 @@
 
 @property(nonatomic,strong)UserInfo *sender;
 
-@property(nonatomic,strong)NSArray *comments;
+@property(nonatomic,strong)NSArray<Comment*> *comments;
 
 @property(nonatomic,assign)BOOL isExpand;
+
+@property(nonatomic,strong)NSString *error;
 
 @end
