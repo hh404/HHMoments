@@ -10,4 +10,8 @@
 
 @interface MomentCell : UITableViewCell
 
+@property(nonatomic,strong)OneMoment *model;
+
+- (void)configCellWithModel:(OneMoment *)model indexPath:(NSIndexPath *)indexPath;
+
 @end

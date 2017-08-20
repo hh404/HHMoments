@@ -16,17 +16,22 @@ PODS:
     - AFNetworking/NSURLSession
   - Masonry (1.0.2)
   - MJExtension (3.0.13)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - Masonry (~> 1.0.2)
   - MJExtension
+  - SDWebImage (~> 4.1.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
 
-PODFILE CHECKSUM: c66b4c425e7e7082db380442676301affa482f11
+PODFILE CHECKSUM: f1b29d77dad8d0527402b55bd1de121e3e4e91e0
 
 COCOAPODS: 1.3.1

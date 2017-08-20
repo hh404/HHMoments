@@ -30,10 +30,10 @@
     return self;
 }
 
-- (NSString *)description
-{
-    return [self autoDescription];
-}
+//- (NSString *)description
+//{
+//    return [self autoDescription];
+//}
 
 - (void)dealloc {
 }
@@ -52,5 +52,7 @@
 
 #pragma mark - 
 #pragma mark Event handlers
+
+
 
 @end

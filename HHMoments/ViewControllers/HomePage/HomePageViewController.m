@@ -8,6 +8,7 @@
 
 #import "HomePageViewController.h"
 #import "MomentsViewController.h"
+#import "NetworkManager.h"
 
 @interface HomePageViewController ()
 
@@ -21,6 +22,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self _setupMomentsButton];
+
 }
 
 

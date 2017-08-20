@@ -14,6 +14,7 @@
 		EC348FB21F4715A3003844E0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC348FB41F4715A3003844E0 /* Localizable.strings */; };
 		EC348FB91F471C16003844E0 /* MomentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC348FB81F471C16003844E0 /* MomentsViewController.m */; };
 		EC348FBE1F471FBC003844E0 /* MomentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC348FBD1F471FBC003844E0 /* MomentCell.m */; };
+		EC348FC11F472446003844E0 /* SingleImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC348FC01F472446003844E0 /* SingleImageViewCell.m */; };
 		EC641CB51F4483B2009B5AA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CB41F4483B2009B5AA3 /* main.m */; };
 		EC641CB81F4483B2009B5AA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CB71F4483B2009B5AA3 /* AppDelegate.m */; };
 		EC641CBE1F4483B2009B5AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC641CBC1F4483B2009B5AA3 /* Main.storyboard */; };
@@ -24,6 +25,17 @@
 		EC641CE81F448B62009B5AA3 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CE71F448B62009B5AA3 /* UserInfo.m */; };
 		EC641CF41F448BE1009B5AA3 /* NSObject+AutoDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CEC1F448BE1009B5AA3 /* NSObject+AutoDescription.m */; };
 		EC641CF51F448BE1009B5AA3 /* NSObject+CleanDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = EC641CEE1F448BE1009B5AA3 /* NSObject+CleanDescription.m */; };
+		ECE4D1DA1F47D1BC004F2D54 /* MonmentHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1D91F47D1BC004F2D54 /* MonmentHeadView.m */; };
+		ECE4D1DD1F4845D4004F2D54 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1DC1F4845D4004F2D54 /* NetworkManager.m */; };
+		ECE4D1E01F4848B4004F2D54 /* CurrentUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1DF1F4848B4004F2D54 /* CurrentUserInfo.m */; };
+		ECE4D1E31F4859B1004F2D54 /* Content.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1E21F4859B1004F2D54 /* Content.m */; };
+		ECE4D1E61F485AD3004F2D54 /* OneMoment.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1E51F485AD3004F2D54 /* OneMoment.m */; };
+		ECE4D1E91F485CF1004F2D54 /* Monents.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1E81F485CF1004F2D54 /* Monents.m */; };
+		ECE4D1EC1F486AD9004F2D54 /* ImageGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1EB1F486AD9004F2D54 /* ImageGridView.m */; };
+		ECE4D1F51F4878F6004F2D54 /* NSString+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1F41F4878F6004F2D54 /* NSString+Height.m */; };
+		ECE4D1F81F487916004F2D54 /* HHTools.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1F71F487916004F2D54 /* HHTools.m */; };
+		ECE4D1FE1F487C59004F2D54 /* UITableView+HYBCacheHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1FB1F487C59004F2D54 /* UITableView+HYBCacheHeight.m */; };
+		ECE4D1FF1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE4D1FD1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +75,8 @@
 		EC348FB81F471C16003844E0 /* MomentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsViewController.m; sourceTree = "<group>"; };
 		EC348FBC1F471FBC003844E0 /* MomentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentCell.h; sourceTree = "<group>"; };
 		EC348FBD1F471FBC003844E0 /* MomentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentCell.m; sourceTree = "<group>"; };
+		EC348FBF1F472446003844E0 /* SingleImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleImageViewCell.h; sourceTree = "<group>"; };
+		EC348FC01F472446003844E0 /* SingleImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleImageViewCell.m; sourceTree = "<group>"; };
 		EC641CB01F4483B2009B5AA3 /* HHMoments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHMoments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC641CB41F4483B2009B5AA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC641CB61F4483B2009B5AA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +98,28 @@
 		EC641CED1F448BE1009B5AA3 /* NSObject+CleanDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CleanDescription.h"; sourceTree = "<group>"; };
 		EC641CEE1F448BE1009B5AA3 /* NSObject+CleanDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CleanDescription.m"; sourceTree = "<group>"; };
 		EC641CF71F448D9A009B5AA3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ECE4D1D81F47D1BC004F2D54 /* MonmentHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonmentHeadView.h; sourceTree = "<group>"; };
+		ECE4D1D91F47D1BC004F2D54 /* MonmentHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonmentHeadView.m; sourceTree = "<group>"; };
+		ECE4D1DB1F4845D4004F2D54 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		ECE4D1DC1F4845D4004F2D54 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		ECE4D1DE1F4848B4004F2D54 /* CurrentUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentUserInfo.h; sourceTree = "<group>"; };
+		ECE4D1DF1F4848B4004F2D54 /* CurrentUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentUserInfo.m; sourceTree = "<group>"; };
+		ECE4D1E11F4859B1004F2D54 /* Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content.h; sourceTree = "<group>"; };
+		ECE4D1E21F4859B1004F2D54 /* Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Content.m; sourceTree = "<group>"; };
+		ECE4D1E41F485AD3004F2D54 /* OneMoment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneMoment.h; sourceTree = "<group>"; };
+		ECE4D1E51F485AD3004F2D54 /* OneMoment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneMoment.m; sourceTree = "<group>"; };
+		ECE4D1E71F485CF1004F2D54 /* Monents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monents.h; sourceTree = "<group>"; };
+		ECE4D1E81F485CF1004F2D54 /* Monents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monents.m; sourceTree = "<group>"; };
+		ECE4D1EA1F486AD9004F2D54 /* ImageGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageGridView.h; sourceTree = "<group>"; };
+		ECE4D1EB1F486AD9004F2D54 /* ImageGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageGridView.m; sourceTree = "<group>"; };
+		ECE4D1F31F4878F6004F2D54 /* NSString+Height.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Height.h"; sourceTree = "<group>"; };
+		ECE4D1F41F4878F6004F2D54 /* NSString+Height.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Height.m"; sourceTree = "<group>"; };
+		ECE4D1F61F487916004F2D54 /* HHTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTools.h; sourceTree = "<group>"; };
+		ECE4D1F71F487916004F2D54 /* HHTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTools.m; sourceTree = "<group>"; };
+		ECE4D1FA1F487C59004F2D54 /* UITableView+HYBCacheHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYBCacheHeight.h"; sourceTree = "<group>"; };
+		ECE4D1FB1F487C59004F2D54 /* UITableView+HYBCacheHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYBCacheHeight.m"; sourceTree = "<group>"; };
+		ECE4D1FC1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+HYBMasonryAutoCellHeight.h"; sourceTree = "<group>"; };
+		ECE4D1FD1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+HYBMasonryAutoCellHeight.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +195,10 @@
 			isa = PBXGroup;
 			children = (
 				EC348FBB1F471FA4003844E0 /* Cells */,
+				ECE4D1D81F47D1BC004F2D54 /* MonmentHeadView.h */,
+				ECE4D1D91F47D1BC004F2D54 /* MonmentHeadView.m */,
+				ECE4D1EA1F486AD9004F2D54 /* ImageGridView.h */,
+				ECE4D1EB1F486AD9004F2D54 /* ImageGridView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +208,8 @@
 			children = (
 				EC348FBC1F471FBC003844E0 /* MomentCell.h */,
 				EC348FBD1F471FBC003844E0 /* MomentCell.m */,
+				EC348FBF1F472446003844E0 /* SingleImageViewCell.h */,
+				EC348FC01F472446003844E0 /* SingleImageViewCell.m */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -197,6 +239,7 @@
 		EC641CB21F4483B2009B5AA3 /* HHMoments */ = {
 			isa = PBXGroup;
 			children = (
+				ECE4D1F11F4878F6004F2D54 /* Common */,
 				EC348FBA1F471F47003844E0 /* Views */,
 				EC641CE91F448BE1009B5AA3 /* ThirdPart */,
 				EC641CEF1F448BE1009B5AA3 /* Models */,
@@ -244,6 +287,7 @@
 		EC641CE91F448BE1009B5AA3 /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
+				ECE4D1F91F487C59004F2D54 /* HYBMasonryAutoCellHeight */,
 				EC641CEA1F448BE1009B5AA3 /* NSObject+AutoDescription */,
 			);
 			path = ThirdPart;
@@ -265,6 +309,14 @@
 			children = (
 				EC641CE61F448B62009B5AA3 /* UserInfo.h */,
 				EC641CE71F448B62009B5AA3 /* UserInfo.m */,
+				ECE4D1DE1F4848B4004F2D54 /* CurrentUserInfo.h */,
+				ECE4D1DF1F4848B4004F2D54 /* CurrentUserInfo.m */,
+				ECE4D1E11F4859B1004F2D54 /* Content.h */,
+				ECE4D1E21F4859B1004F2D54 /* Content.m */,
+				ECE4D1E41F485AD3004F2D54 /* OneMoment.h */,
+				ECE4D1E51F485AD3004F2D54 /* OneMoment.m */,
+				ECE4D1E71F485CF1004F2D54 /* Monents.h */,
+				ECE4D1E81F485CF1004F2D54 /* Monents.m */,
 			);
 			name = Models;
 			path = Model;
@@ -282,8 +334,40 @@
 		EC641CF31F448BE1009B5AA3 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				ECE4D1DB1F4845D4004F2D54 /* NetworkManager.h */,
+				ECE4D1DC1F4845D4004F2D54 /* NetworkManager.m */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		ECE4D1F11F4878F6004F2D54 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4D1F21F4878F6004F2D54 /* Categories */,
+				ECE4D1F61F487916004F2D54 /* HHTools.h */,
+				ECE4D1F71F487916004F2D54 /* HHTools.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ECE4D1F21F4878F6004F2D54 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4D1F31F4878F6004F2D54 /* NSString+Height.h */,
+				ECE4D1F41F4878F6004F2D54 /* NSString+Height.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		ECE4D1F91F487C59004F2D54 /* HYBMasonryAutoCellHeight */ = {
+			isa = PBXGroup;
+			children = (
+				ECE4D1FA1F487C59004F2D54 /* UITableView+HYBCacheHeight.h */,
+				ECE4D1FB1F487C59004F2D54 /* UITableView+HYBCacheHeight.m */,
+				ECE4D1FC1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.h */,
+				ECE4D1FD1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.m */,
+			);
+			path = HYBMasonryAutoCellHeight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -580,13 +664,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE4D1E91F485CF1004F2D54 /* Monents.m in Sources */,
+				ECE4D1FE1F487C59004F2D54 /* UITableView+HYBCacheHeight.m in Sources */,
 				EC348FAD1F47112B003844E0 /* HomePageViewController.m in Sources */,
 				EC641CE81F448B62009B5AA3 /* UserInfo.m in Sources */,
 				EC641CF51F448BE1009B5AA3 /* NSObject+CleanDescription.m in Sources */,
+				ECE4D1DD1F4845D4004F2D54 /* NetworkManager.m in Sources */,
+				ECE4D1F51F4878F6004F2D54 /* NSString+Height.m in Sources */,
 				EC641CF41F448BE1009B5AA3 /* NSObject+AutoDescription.m in Sources */,
 				EC641CB81F4483B2009B5AA3 /* AppDelegate.m in Sources */,
+				ECE4D1DA1F47D1BC004F2D54 /* MonmentHeadView.m in Sources */,
 				EC348FB91F471C16003844E0 /* MomentsViewController.m in Sources */,
+				EC348FC11F472446003844E0 /* SingleImageViewCell.m in Sources */,
 				EC641CB51F4483B2009B5AA3 /* main.m in Sources */,
+				ECE4D1E61F485AD3004F2D54 /* OneMoment.m in Sources */,
+				ECE4D1E01F4848B4004F2D54 /* CurrentUserInfo.m in Sources */,
+				ECE4D1FF1F487C59004F2D54 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
+				ECE4D1E31F4859B1004F2D54 /* Content.m in Sources */,
+				ECE4D1F81F487916004F2D54 /* HHTools.m in Sources */,
+				ECE4D1EC1F486AD9004F2D54 /* ImageGridView.m in Sources */,
 				EC348FBE1F471FBC003844E0 /* MomentCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

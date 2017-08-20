@@ -9,6 +9,7 @@ pod 'AFNetworking', '~> 3.1.0'
 pod 'Masonry', '~> 1.0.2'
 pod 'MJExtension'
 pod 'Masonry', '~> 1.0.2'
+ pod 'SDWebImage', '~> 4.1.0'
   # Pods for HHMoments
 
   target 'HHMomentsTests' do
