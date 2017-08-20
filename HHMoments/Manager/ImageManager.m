@@ -54,6 +54,11 @@ static ImageManager *gImageManager = nil;
 
 - (void)imageWithURL:(NSString*)url success:(success)successBlock failure:(failure)failureBlock
 {
+    if(!url)
+    {
+        failureBlock(nil);
+        return;
+    }
     //查询内存缓存
     UIImage *image = [self.imageCache objectForKey:[url MD5Digest]];
     

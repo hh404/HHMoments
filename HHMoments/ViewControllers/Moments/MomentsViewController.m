@@ -234,64 +234,6 @@
     model.isExpand = !model.isExpand;
     [self.tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
 }
-/*#pragma mark -- 点击图片
--(void)didClickImageViewWithCurrentView:(UIImageView *)imageView imageViewArray:(NSMutableArray *)array imageSuperView:(UIView *)view indexPath:(NSIndexPath *)indexPath
-{
-    ZJImageViewBrowser *browser = [[ZJImageViewBrowser alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight) imageViewArray:array imageViewContainView:view];
-    browser.selectedImageView = imageView;
-    [browser show];
-}
-#pragma mark -- 点击赞
--(void)didClickenLikeBtnWithIndexPath:(NSIndexPath *)indexPath
-{
-    FriendLineCellModel *model = self.dataArray[indexPath.row];
-    NSMutableArray *likeArray = [NSMutableArray arrayWithArray:model.likeNameArray];
-    model.isLiked ==YES ? [likeArray removeObject:@"Sky"]:[likeArray addObject:@"Sky"];
-    
-    model.likeNameArray = [likeArray copy];
-    model.isLiked = !model.isLiked;
-    [self.tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
-}
-#pragma mark -- 点击评论按钮
--(void)didClickCommentBtnWithIndexPath:(NSIndexPath *)indexPath
-{
-    
-    self.commentIndexpath = indexPath;
-    FriendLineCellModel *model = self.dataArray[indexPath.row];
-    self.chatKeyBoard.placeHolder = [NSString stringWithFormat:@"评论：%@",model.usernName];
-    [self.chatKeyBoard keyboardUpforComment];
-}
-#pragma mark --点击评论内容的某一行
--(void)didClickRowWithFirstIndexPath:(NSIndexPath *)firIndexPath secondIndex:(NSIndexPath *)secIndexPath
-{
-    FriendLineCellModel *model = self.dataArray[firIndexPath.row];
-    CommentModel *comModel = model.commentArray[secIndexPath.row];
-    if([comModel.userName isEqualToString:@"Sky"])
-    {
-        UIAlertController * controller = [UIAlertController alertControllerWithTitle:nil  message:@"是否删除该条评论" preferredStyle:UIAlertControllerStyleAlert];
-        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-            NSLog(@"取消");
-        }];
-        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"好的" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-            NSMutableArray *mutableArray = model.commentArray.mutableCopy;
-            [mutableArray removeObjectAtIndex:secIndexPath.row];
-            model.commentArray = mutableArray.copy;
-            [self.tableView reloadRowsAtIndexPaths:@[firIndexPath] withRowAnimation:UITableViewRowAnimationFade];
-            
-        }];
-        [controller addAction:cancelAction];
-        [controller addAction:okAction];
-        [self presentViewController:controller animated:YES completion:nil];
-    }
-    else
-    {
-        self.commentIndexpath = firIndexPath;
-        self.replyIndexpath = secIndexPath;
-        
-        self.chatKeyBoard.placeHolder = [NSString stringWithFormat:@"回复：%@",comModel.userName];
-        [self.chatKeyBoard keyboardUpforComment];
-    }
-    
-}*/
+
 
 @end

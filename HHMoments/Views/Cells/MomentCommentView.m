@@ -12,12 +12,8 @@
 #import "MLLinkLabel.h"
 
 @interface MomentCommentView ()<UITableViewDelegate,UITableViewDataSource,MLLinkLabelDelegate>
-@property (nonatomic,strong)NSMutableArray *likeArray;
 @property (nonatomic,strong)NSMutableArray *commentDataArray;
-@property (nonatomic,strong)UIImageView *bigImageView;
-@property (nonatomic,strong)MLLinkLabel *praiseLabel;
 @property (nonatomic,strong)UITableView *tableView;
-
 @property (nonatomic, strong) NSIndexPath *indexPath;
 @end
 
@@ -45,16 +41,8 @@
 {
     if(self = [super init])
     {
-        //        self.commentDataArray = @[].mutableCopy;
-        //        self.likeArray = @[].mutableCopy;
-        //        UIImageView *bigImageView = [[UIImageView alloc] init];
-        //        UIImage *bgImage = [[[UIImage imageNamed:@"LikeCmtBg"] stretchableImageWithLeftCapWidth:40 topCapHeight:30] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-        //        bigImageView.image = bgImage;
-        //        [self addSubview:bigImageView];
-        //        self.bigImageView = bigImageView;
         self.backgroundColor = [UIColor clearColor];
 
-        
         UITableView *tableView = [[UITableView alloc] init];
         tableView.delegate = self;
         tableView.dataSource = self;
@@ -66,9 +54,6 @@
 
         [self addSubview:tableView];
         self.tableView = tableView;
-        //        [bigImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        //            make.top.left.bottom.right.mas_equalTo(self).insets(UIEdgeInsetsMake(0, 0, 0, 0));
-        //        }];
         
         [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.mas_equalTo(self).offset(5);
@@ -87,7 +72,6 @@
     float height=  [MomentCommentCell hyb_heightForTableView:tableView config:^(UITableViewCell *sourceCell) {
         MomentCommentCell *cell = (MomentCommentCell *)sourceCell;
         cell.comment = self.commentDataArray[indexPath.row];
-        //[cell configCellWithModel:self.commentDataArray[indexPath.row]];
     } ];
     return height;
 }
@@ -96,9 +80,7 @@
 {
     MomentCommentCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MomentCommentCell"];
     cell.backgroundColor = [UIColor colorWithHex:0xf0f0f0];
-    //[cell configCellWithModel:self.commentDataArray[indexPath.row]];
     [cell setComment:self.commentDataArray[indexPath.row]];
-   // cell.contentView.backgroundColor = [UIColor whiteColor];
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
